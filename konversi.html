@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>konversi</title>
+    <style>
+      .container {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px auto;
+      }
+      #coin {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Konversi</h2>
+      <input type="text" id="coin" onchange="diamon(this.value)"/>
+      <input type="text" id="rupiah" disabled />
+    </div>
+    <script src="konversi.js"></script>
+  </body>
+</html>
